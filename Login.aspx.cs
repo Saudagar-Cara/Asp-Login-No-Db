@@ -11,7 +11,7 @@ namespace WebApplication
     {
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtusername.Text == "test" & txtpassword.Text == "123")
+            if (txtusername.Text == "test" && txtpassword.Text == "123")
             {
                 Session["name"] = txtusername.Text;
                 Response.Redirect("About.aspx");
