@@ -5,4 +5,5 @@
     <h3>Login Successfully
         <asp.Label ID="lblsession" runat="server"></asp.Label>
     </h3>
+   <asp:Button type="button" class="btn btn-danger" ID="btnLogin" runat="server" OnClick="btnSignOut_Click" Text="Sign Out" />
 </asp:Content>

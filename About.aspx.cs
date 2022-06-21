@@ -9,6 +9,14 @@ namespace WebApplication3
 {
     public partial class About : Page
     {
+
+
+        protected void btnSignOut_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+
+        }
+
         protected void Page_Load(object sender, EventArgs e)
 
         {
